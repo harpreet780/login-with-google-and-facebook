@@ -5,3 +5,9 @@
    height: 100vh;
 }
 
+.kep-login-facebook {
+  padding: 8px 18px !important;
+  border-radius: 8px !important;
+  text-transform: capitalize !important;
+  font-weight: 500 !important;
+}

@@ -49,7 +49,6 @@ const LoginWithFacebook = () => {
                     fields="name,email,picture"
                     onClick={() => console.log('clicked')}
                     callback={() => console.log("callback")}
-                    style={{ margin: 5 }}
                 />
             </div>
         </div>
