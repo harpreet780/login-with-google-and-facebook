@@ -1,6 +1,6 @@
-// import FacebookLogin from '@greatsumini/react-facebook-login';
+import FacebookLogin from '@greatsumini/react-facebook-login';
 import React from 'react';
-import FacebookLogin from 'react-facebook-login';
+// import FacebookLogin from 'react-facebook-login';
 
 
 const LoginWithFacebook = () => {
@@ -12,10 +12,9 @@ const LoginWithFacebook = () => {
     // live appId of authorify: 882095393167134
     // create surge for https: https://facebook-login.surge.sh
 
-
     return (
         <div className='mt-4 '>
-            {/* <div>
+            <div>
                 <FacebookLogin
                     appId="882095393167134"
                     fields="name,email"
@@ -41,8 +40,8 @@ const LoginWithFacebook = () => {
                 >
                     Login Via facebook
                 </FacebookLogin>
-            </div> */}
-            <div>
+            </div>
+            {/* <div>
                 <FacebookLogin
                     appId="1230551687852179"
                     autoLoad={true}
@@ -50,7 +49,7 @@ const LoginWithFacebook = () => {
                     onClick={() => console.log('clicked')}
                     callback={() => console.log("callback")}
                 />
-            </div>
+            </div> */}
         </div>
     )
 }
