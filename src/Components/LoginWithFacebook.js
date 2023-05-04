@@ -9,7 +9,7 @@ const LoginWithFacebook = () => {
     // pass: Test@123
     // HTTPS=true npm start (use for run : to run local on https---for facebook login)
     // appId = 1230551687852179
-    // live appId of authorify: 484606203521003
+    // live appId of authorify: 882095393167134
     // create surge for https: https://facebook-login.surge.sh
 
 
@@ -17,7 +17,7 @@ const LoginWithFacebook = () => {
         <div className='mt-4 '>
             {/* <div>
                 <FacebookLogin
-                    appId="1230551687852179"
+                    appId="882095393167134"
                     fields="name,email"
                     onSuccess={(response) => {
                         console.log('Login Success!', response);
@@ -44,7 +44,7 @@ const LoginWithFacebook = () => {
             </div> */}
             <div>
                 <FacebookLogin
-                    appId="484606203521003"
+                    appId="1230551687852179"
                     autoLoad={true}
                     fields="name,email,picture"
                     onClick={() => console.log('clicked')}
